@@ -1,0 +1,57 @@
+#sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+}
+
+#form {
+    height: 100%;
+    width: 100%;
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+    }
+
+    input {
+        color: grey;
+        outline: none;
+        border: 1px solid white;
+        width: 100%;
+        height: 50px;
+    }
+
+    button {
+        margin-left: 10px;
+        background: transparent;
+        border: 2px solid rgba(255,255,255,0.4);
+        height: 50px;
+        width: 350px;
+        outline: none;
+        &:hover {
+          background: rgba(255,255,255,0.4);
+        }
+    }
+}
+
+
+#startToday {
+  background: transparent;
+  border: 3px solid white;
+  height: 50px;
+  width: 100%;
+  font-size: 1.3rem;
+  outline: none;
+  font-family: 'Open Sans';
+  color: white;
+  &:hover {
+    background: rgba(255,255,255,0.4);
+  }
+}

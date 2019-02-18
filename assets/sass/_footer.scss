@@ -1,0 +1,40 @@
+footer {
+    color: white;
+    opacity: 0.5;
+    height: 300px;
+    font-size: 1rem;
+    padding-bottom: 475px;
+    padding-top: 90px;
+    div {
+      margin: 0 auto;
+    }
+    .copyright {
+      text-align: center;
+    }
+}
+
+#disclaimer {
+  display: block;
+  padding: 50px;
+  line-height: 2.2;
+  letter-spacing: 1px;
+  width: 85%;
+  margin: 0 auto;
+  p {
+    font-size: .9rem;
+  }
+}
+
+.disclaimer {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:600px) {
+    footer {
+        font-size: .9rem;
+    }
+
+    #disclaimer {
+      width: 100%;
+    }
+}

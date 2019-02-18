@@ -1,0 +1,31 @@
+ #bot-nav, #top-nav {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 50px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: transparent;
+    border-top: 2px solid rgba(255,255,255,0.4);
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    margin: 10px auto;
+}
+
+
+nav a {
+  color: rgba(255,255,255,0.7);
+
+  &:focus{
+    color: rgba(255,255,255,0.5);
+  }
+  &:active {
+    color: rgba(255,255,255,0.5);
+  }
+  &:hover {
+    color: rgba(255,255,255,0.5);
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "kaitin44",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dericka/kaitin44.git"
+  },
+  "author": "derick alfaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dericka/kaitin44/issues"
+  },
+  "homepage": "https://github.com/dericka/kaitin44#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "*"
+  }
+}
